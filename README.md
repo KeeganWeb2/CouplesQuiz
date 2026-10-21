@@ -1,6 +1,6 @@
 # What couple are we?
 
-A cute pink-and-roses quiz. 11 categories x 2 questions ("If I were..." / "If you were...") = 22 questions. The answers score points for eight couples and the highest total wins.
+A cute pink-and-roses quiz. 11 categories x 2 questions ("If I were..." / "If you were...") = 22 questions. "If I were..." answers score the men of each couple and "If you were..." answers score the women. The answers score points for eight couples and the highest total wins.
 
 ## Put it online with GitHub Pages
 1. Create a new repository on GitHub (e.g. `couple-quiz`) and upload everything in this folder, keeping the structure.

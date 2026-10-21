@@ -2,8 +2,8 @@
   QUIZ DATA
 
   Each category becomes TWO questions:
-    "If I were a ___, what ___ would I be?"   -> uses each option's `her` points (the woman of each couple)
-    "If you were a ___, what ___ would you be?" -> uses each option's `him` points (the man of each couple)
+    "If I were a ___, what ___ would I be?"   -> uses each option's `him` points (the man of each couple)
+    "If you were a ___, what ___ would you be?" -> uses each option's `her` points (the woman of each couple)
 
   Points are written as two-letter couple keys followed by a number, e.g. "bb3 mg1"
   means: +3 for Belle & the Beast, +1 for Mark & Gemma.
@@ -39,7 +39,7 @@ const QUIZ = [
   {
     id: "season", emoji: "🍂", a: "a season", what: "season",
     options: [
-      { label: "Spring somewhere blooming", emoji: "🌸", her: "rf3 bb3 mg1 fd1", him: "mh3 bi3 rf1 fd1" },
+      { label: "Spring", emoji: "🌸", her: "rf3 bb3 mg1 fd1", him: "mh3 bi3 rf1 fd1" },
       { label: "Summer",                    emoji: "☀️", her: "fd3 mg3 rf1 gl1", him: "fd3 rf3 mh1 gl1" },
       { label: "Autumn",                    emoji: "🍂", her: "js3 bi3 gl1 bb1", him: "js3 gl3 bi1 mg1" },
       { label: "Winter",                    emoji: "❄️", her: "mh3 gl3 mg1 js1", him: "mg3 bb3 gl1 js1" }
@@ -67,6 +67,7 @@ const QUIZ = [
       { label: "Lemonade",        emoji: "🍋", her: "rf3 fd1", him: "fd3 rf1" },
       { label: "Iced coffee",     emoji: "🥤", her: "mh3 gl1", him: "gl3 mh1" },
       { label: "Bubble tea",      emoji: "🧋", her: "fd3 js1", him: "js3 fd1" },
+      { label: "Iced vanilla latte", emoji: "🥛", her: "fd3 rf1", him: "rf3 mh1" },
       { label: "Sweet iced tea",  emoji: "🍹", her: "mg3 bi1", him: "bi3 mg1" },
       { label: "Sparkling water", emoji: "🫧", her: "gl3 mh1", him: "rf3 gl1" },
       { label: "Cherry soda",     emoji: "🍒", her: "js3 rf1", him: "bb3 js1" },

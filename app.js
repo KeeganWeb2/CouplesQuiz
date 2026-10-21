@@ -5,8 +5,8 @@
   // ---- Build the question list: for every category, an "I" and a "you" question
   const questions = [];
   QUIZ.forEach((cat) => {
-    questions.push({ cat, who: "her", id: cat.id + "-her", title: `If I were ${cat.a}, what ${cat.what} would I be?` });
-    questions.push({ cat, who: "him", id: cat.id + "-him", title: `If you were ${cat.a}, what ${cat.what} would you be?` });
+    questions.push({ cat, who: "him", id: cat.id + "-him", title: `If I were ${cat.a}, what ${cat.what} would I be?` });
+    questions.push({ cat, who: "her", id: cat.id + "-her", title: `If you were ${cat.a}, what ${cat.what} would you be?` });
   });
 
   function show(name) {
@@ -26,7 +26,7 @@
       fs.appendChild(legend);
       const sub = document.createElement("p");
       sub.className = "sub";
-      sub.textContent = q.who === "her" ? "About you" : "About me";
+      sub.textContent = q.who === "him" ? "About you" : "About me";
       fs.appendChild(sub);
 
       const grid = document.createElement("div");
