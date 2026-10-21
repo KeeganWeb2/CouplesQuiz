@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What couple are we?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <img class="corner-rose tl" src="assets/rose.svg" alt="" aria-hidden="true">
+  <img class="corner-rose br" src="assets/rose.svg" alt="" aria-hidden="true">
+
+  <main>
+    <!-- Title page -->
+    <section id="start" class="page" aria-labelledby="start-title">
+      <div class="card hero">
+        <p class="hearts" aria-hidden="true">💕</p>
+        <h1 id="start-title">What couple are we?</h1>
+        <p class="lead">A little quiz made for you. Answer for yourself, then answer for me, and we'll find out which couple we match.</p>
+        <button id="begin" class="btn" type="button">Begin quiz</button>
+      </div>
+    </section>
+
+    <!-- Quiz page -->
+    <section id="quiz" class="page" hidden aria-labelledby="quiz-title">
+      <header class="quiz-head">
+        <h2 id="quiz-title">What couple are we?</h2>
+        <div class="progress" role="status" aria-live="polite">
+          <div class="bar"><span id="bar-fill"></span></div>
+          <p id="progress-text">0 of 0 answered</p>
+        </div>
+      </header>
+      <form id="quiz-form" novalidate>
+        <div id="questions"></div>
+        <p id="error" class="error" role="alert" hidden></p>
+        <button class="btn submit" type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Result page -->
+    <section id="result" class="page" hidden aria-labelledby="result-title">
+      <div class="card hero">
+        <p class="hearts" aria-hidden="true">🌹</p>
+        <h2 id="result-title" tabindex="-1">We're ...</h2>
+        <p id="couple-names" class="couple-names"></p>
+        <p id="couple-show" class="couple-show"></p>
+
+        <figure id="photo" class="photo">
+          <div class="photo-placeholder">
+            <span aria-hidden="true">🌹</span>
+            <p>Our photo goes here</p>
+          </div>
+        </figure>
+
+        <p id="couple-blurb" class="blurb"></p>
+        <button id="retake" class="btn ghost" type="button">Take it again</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="quiz-data.js"></script>
+  <script src="couples.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
