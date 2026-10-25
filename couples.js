@@ -12,7 +12,7 @@ const COUPLES = [
     names: "Burt & Irv",
     show: "Severance",
     photo: "burt-irv",
-    blurb: "Gentle, devoted, and wonderfully steady. Yours is the quiet kind of love: little rituals, handwritten notes, and a loyalty that never needs to shout."
+    blurb: "Gentle, devoted, and wonderfully steady. Yours is the quiet kind of relationship: little rituals, handwritten notes, and a loyalty that never needs to shout."
   },
   {
     key: "mh",
@@ -26,7 +26,7 @@ const COUPLES = [
     names: "Mark & Gemma",
     show: "Severance",
     photo: "mark-gemma",
-    blurb: "Deep, warm, and endlessly devoted. Yours is a love that holds on through anything and remembers every small, tender moment."
+    blurb: "Deep, warm, and endlessly devoted. Yours is a relationship that holds on through anything and remembers every small, tender moment."
   },
   {
     key: "fd",
@@ -47,7 +47,7 @@ const COUPLES = [
     names: "Belle & the Beast",
     show: "Beauty and the Beast",
     photo: "belle-beast",
-    blurb: "A tale as old as time. Tender hearts, a love of all things cozy and classic, and a bond that makes everything feel a little enchanted."
+    blurb: "A tale as old as time. Tender hearts, a relationship of all things cozy and classic, and a bond that makes everything feel a little enchanted."
   },
   {
     key: "rf",
@@ -61,6 +61,6 @@ const COUPLES = [
     names: "Jack Skellington & Sally",
     show: "The Nightmare Before Christmas",
     photo: "jack-sally",
-    blurb: "A wonderfully whimsical, spooky-sweet love. Two creative hearts who found each other in the moonlight and were simply meant to be."
+    blurb: "A wonderfully whimsical, spooky-sweet relationship. Two creative hearts who found each other in the moonlight and were simply meant to be."
   }
 ];
